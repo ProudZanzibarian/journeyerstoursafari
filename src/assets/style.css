@@ -1910,6 +1910,7 @@ input[type=submit]:focus {
   }
   .fixed-header .bottom-header .black-logo {
     display: block;
+    width: 70px;
   }
 }
 @media screen and (max-width: 991px) {
@@ -2476,7 +2477,7 @@ input[type=submit]:focus {
   position: relative;
 }
 .shape-search-section .slider-shape {
-  background-image: url(assets/images/slider-pattern.png);
+  background-image: url(./images/slider-pattern.png);
   background-size: cover;
   background-repeat: no-repeat;
   content: "";
@@ -4571,7 +4572,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 }
 
 .inner-shape {
-  background-image: url(assets/images/slider-pattern.png);
+  background-image: url(./images/slider-pattern.png);
   background-size: cover;
   background-repeat: no-repeat;
   content: "";
@@ -4590,7 +4591,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
   background-color: #FAFAFA;
 }
 .inner-banner-gray .inner-shape {
-  background-image: url(assets/images/banner-pattern.png);
+  background-image: url(./images/slider-pattern.png);
 }
 
 .inner-baner-container {

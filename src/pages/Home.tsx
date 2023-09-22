@@ -4,7 +4,9 @@ import BestPhotoSection from "../components/BestPhotoSection";
 import CallBackSection from "../components/CallBackSection";
 import Search from "../components/SearchSection";
 import Testimonial from "../components/TestimonialSection";
-import Package from "../components/packageSection";
+import ZnzSection from "../components/ZnzSection";
+import DestinationSection from "../components/DestinationSection";
+import TzSection from "../components/TzSection";
 
 
 function Home() {
@@ -12,7 +14,9 @@ function Home() {
     <>
       <BannerSection/>
       <Search/>
-      <Package/>
+      <ZnzSection/>
+      <TzSection/>
+      <DestinationSection/>
       <CallBackSection/>
       <Activity/>
       <BestPhotoSection/>

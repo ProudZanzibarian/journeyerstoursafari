@@ -1,10 +1,11 @@
 import GallerySection from "../components/GallerySection";
+import UpperSection from "../components/UpperSection";
 
 function Gallery() {
-  
   return (
     <>
-      <GallerySection/>
+      <UpperSection name="Gallery" />
+      <GallerySection />
     </>
   );
 }

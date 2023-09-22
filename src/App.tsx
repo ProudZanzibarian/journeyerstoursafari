@@ -4,7 +4,9 @@ import Home from "./pages/Home.tsx";
 import Footer from "./components/Footer.tsx";
 import About from "./pages/About.tsx";
 import Gallery from "./pages/Gallery.tsx";
-import Package from "./components/packageSection.tsx";
+import Package from "./pages/Package.tsx";
+import Packages from "./pages/Packages.tsx";
+import Contact from "./pages/Contact.tsx";
 // import "../src/assets/style.css";
 
 function App() {
@@ -14,12 +16,15 @@ function App() {
         <div id="page" className="full-page">
           <Header />
           <main id="content" className="site-main">
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/about" element={<About/>} />
-            <Route path="/gallery" element={<Gallery/>} />
-            <Route path="/package/:id" element={<Package/>} />
-          </Routes>
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/gallery" element={<Gallery />} />
+              <Route path="/packages" element={<Packages />} />
+              <Route path="/package/:id" element={<Package />} />
+              {/* <Route path="/booking/:id" element={<Booking/>} /> */}
+              <Route path="/contact" element={<Contact />} />
+            </Routes>
           </main>
           <Footer />
         </div>

@@ -1,22 +1,10 @@
 import React from "react";
+import UpperSection from "./UpperSection";
 
 const AboutSection: React.FC = () => {
   return (
     <main id="content" className="site-main">
-      <section className="inner-banner-wrap">
-        <div
-          className="inner-baner-container"
-          style={{ backgroundImage: "url(assets/images/inner-banner.jpg);" }}
-        >
-          <div className="container">
-            <div className="inner-banner-content">
-              <h1 className="inner-title">About us</h1>
-            </div>
-          </div>
-        </div>
-        <div className="inner-shape"></div>
-      </section>
-
+      <UpperSection name="About Us" />
       <section className="about-section about-page-section">
         <div className="about-service-wrap">
           <div className="container">

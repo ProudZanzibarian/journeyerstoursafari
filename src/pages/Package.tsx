@@ -1,10 +1,11 @@
 import PackageDetail from "../components/PackageDetail";
+import UpperSection from "../components/UpperSection";
 
 function Package() {
-  
   return (
     <>
-      <PackageDetail/>
+      <UpperSection name=" Zanzibar Day Trips " />
+      <PackageDetail />
     </>
   );
 }

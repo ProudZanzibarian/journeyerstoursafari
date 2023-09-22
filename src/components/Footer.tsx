@@ -61,17 +61,6 @@ const Footer: React.FC = () => {
           <div className="row align-items-center">
             <div className="col-md-5">
               <div className="footer-menu">
-                <ul>
-                  <li>
-                    <a href="#">Privacy Policy</a>
-                  </li>
-                  <li>
-                    <a href="#">Term & Condition</a>
-                  </li>
-                  <li>
-                    <a href="#">FAQ</a>
-                  </li>
-                </ul>
               </div>
             </div>
             <div className="col-md-2 text-center">
@@ -83,7 +72,7 @@ const Footer: React.FC = () => {
             </div>
             <div className="col-md-5">
               <div className="copy-right text-right">
-                Copyright © 2021 Travele. All rights reserved
+                Copyright © 2023 <a href="http://lionscode.tech/">Lion</a>. All rights reserved
               </div>
             </div>
           </div>

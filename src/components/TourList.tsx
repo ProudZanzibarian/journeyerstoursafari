@@ -5,15 +5,22 @@ interface Tour {
   id: number;
   name: string;
   description: string;
+  location: string;
+  image: string;
+}
+interface TourListProps {
+  limit: number;
+  shortDesc: boolean;
+  category : string;
 }
 
-function TourList() {
+function TourList({ limit, shortDesc,  category }: TourListProps) {
   const [tours, setTours] = useState<Tour[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
-    fetch("./src/assets/db/data.json")
+    fetch("./src/assets/data.json")
       .then((response) => {
         if (!response.ok) {
           throw new Error("Network response was not ok");
@@ -21,8 +28,8 @@ function TourList() {
         return response.json();
       })
       .then((data) => {
-        setTours(data.package);
-        setLoading(false);
+        const filteredTours = data.package.filter((tour: { category: string; }) => tour.category === category);
+        setTours(filteredTours);        setLoading(false);
       })
       .catch((error) => {
         setError(error.message);
@@ -40,15 +47,17 @@ function TourList() {
     return <p>Error: {error}</p>;
   }
 
+  const limitedTours = tours.slice(0, limit);
+
   // Render data when successfully retrieved
   return (
     <>
-      {tours.map((tour) => (
+      {limitedTours.map((tour) => (
         <div className="col-lg-4 col-md-6" key={tour.id}>
           <div className="package-wrap">
             <figure className="feature-image">
               <a href="#">
-                <img src="assets/images/img5.jpg" alt="" />
+                <img src={`src/assets/images/${tour.image}`} alt="" />
               </a>
             </figure>
             <div className="package-price">
@@ -60,16 +69,8 @@ function TourList() {
               <div className="package-meta text-center">
                 <ul>
                   <li>
-                    <i className="far fa-clock"></i>
-                    7D/6N
-                  </li>
-                  <li>
-                    <i className="fas fa-user-friends"></i>
-                    People: 5
-                  </li>
-                  <li>
                     <i className="fas fa-map-marker-alt"></i>
-                    {tour.name}
+                    {tour.location}
                   </li>
                 </ul>
               </div>
@@ -83,14 +84,14 @@ function TourList() {
                     <span style={{ width: "60%" }}></span>
                   </div>
                 </div>
-                <p>{tour.description.substring(0, 100)}...</p>
+                <p>{!shortDesc ? tour.description : `${tour.description.substring(0, 100)}...`}</p>
                 <div className="btn-wrap">
-                  <a href="#" className="button-text width-6">
+                  <Link to={`/package/${tour.id}`} className="button-text width-6">
                     Book Now<i className="fas fa-arrow-right"></i>
-                  </a>
-                  <a href="#" className="button-text width-6">
-                    Wish List<i className="far fa-heart"></i>
-                  </a>
+                  </Link>
+                  <Link to={`/package/${tour.id}`} className="button-text width-6">
+                    Read More
+                  </Link>
                 </div>
               </div>
             </div>
