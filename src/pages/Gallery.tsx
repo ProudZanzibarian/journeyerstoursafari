@@ -5,7 +5,7 @@ function Gallery() {
   return (
     <>
       <UpperSection name="Gallery" />
-      <GallerySection />
+      <GallerySection galleryItems={[]}  />
     </>
   );
 }

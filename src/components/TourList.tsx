@@ -7,14 +7,15 @@ interface Tour {
   description: string;
   location: string;
   image: string;
+  default_day: string;
 }
 interface TourListProps {
   limit: number;
   shortDesc: boolean;
-  category : string;
+  category: string;
 }
 
-function TourList({ limit, shortDesc,  category }: TourListProps) {
+function TourList({ limit, shortDesc, category }: TourListProps) {
   const [tours, setTours] = useState<Tour[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
@@ -28,8 +29,11 @@ function TourList({ limit, shortDesc,  category }: TourListProps) {
         return response.json();
       })
       .then((data) => {
-        const filteredTours = data.package.filter((tour: { category: string; }) => tour.category === category);
-        setTours(filteredTours);        setLoading(false);
+        const filteredTours = data.package.filter(
+          (tour: { category: string }) => tour.category === category
+        );
+        setTours(filteredTours);
+        setLoading(false);
       })
       .catch((error) => {
         setError(error.message);
@@ -68,6 +72,12 @@ function TourList({ limit, shortDesc,  category }: TourListProps) {
             <div className="package-content-wrap">
               <div className="package-meta text-center">
                 <ul>
+                  {tour.default_day !== "off" && (
+                    <li>
+                      <i className="far fa-clock"></i>
+                      {tour.default_day}
+                    </li>
+                  )}
                   <li>
                     <i className="fas fa-map-marker-alt"></i>
                     {tour.location}
@@ -84,12 +94,22 @@ function TourList({ limit, shortDesc,  category }: TourListProps) {
                     <span style={{ width: "60%" }}></span>
                   </div>
                 </div>
-                <p>{!shortDesc ? tour.description : `${tour.description.substring(0, 100)}...`}</p>
+                <p>
+                  {!shortDesc
+                    ? tour.description
+                    : `${tour.description.substring(0, 100)}...`}
+                </p>
                 <div className="btn-wrap">
-                  <Link to={`/package/${tour.id}`} className="button-text width-6">
+                  <Link
+                    to={`/package/${tour.id}`}
+                    className="button-text width-6"
+                  >
                     Book Now<i className="fas fa-arrow-right"></i>
                   </Link>
-                  <Link to={`/package/${tour.id}`} className="button-text width-6">
+                  <Link
+                    to={`/package/${tour.id}`}
+                    className="button-text width-6"
+                  >
                     Read More
                   </Link>
                 </div>

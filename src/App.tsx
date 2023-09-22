@@ -7,6 +7,8 @@ import Gallery from "./pages/Gallery.tsx";
 import Package from "./pages/Package.tsx";
 import Packages from "./pages/Packages.tsx";
 import Contact from "./pages/Contact.tsx";
+import Tanzania from "./pages/Tanzania.tsx";
+import Zanzibar from "./pages/Zanzibar.tsx";
 // import "../src/assets/style.css";
 
 function App() {
@@ -22,8 +24,10 @@ function App() {
               <Route path="/gallery" element={<Gallery />} />
               <Route path="/packages" element={<Packages />} />
               <Route path="/package/:id" element={<Package />} />
-              {/* <Route path="/booking/:id" element={<Booking/>} /> */}
               <Route path="/contact" element={<Contact />} />
+              <Route path="/tanzania" element={<Tanzania />} />
+              <Route path="/zanzibar" element={<Zanzibar />} />
+
             </Routes>
           </main>
           <Footer />
