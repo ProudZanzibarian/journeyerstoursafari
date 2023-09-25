@@ -22,7 +22,19 @@ const AboutSection: React.FC = () => {
                       the Swahili Coast. We have also partnered with selected
                       service and experience providers on the Tanzania mainland,
                       through whom we offer safari packages, authentic cultural
-                      encounters and mountain tours
+                      encounters and mountain tours. Provide memorable,
+                      authentic visitor experiences to local and international
+                      travellers, with a focus on giving travellers an
+                      experience of the warmth and diverse cultures of
+                      Tanzania’s national community, the magic and sheer wonders
+                      of its climate, geography, wilderness and wildlife –
+                      safely, comfortably and affordably, while enriching both
+                      host communities’ and visitors’ lives alike, through
+                      shared knowledge and understanding. Use guest experiences
+                      to our country to making better places for people to live
+                      in and better places for people to visit. Through
+                      philanthropy, give to local communities which do not
+                      directly benefit from gains of tourism.
                     </p>
                   </div>
                 </div>

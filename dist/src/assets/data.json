@@ -130,7 +130,38 @@
       "category": "pck",
       "default_day": "2 Days / 1 night",
       "description": "This is a short safari for visitors with limited time for a longer safari. Mikumi National Park offers a wide range of wildlife inhabiting its 3,230 sq. km area. Unique sightings are groups of female and young bachelor sable with their one dominant male. Over 400 species of birds have been observed in the park, many of which are Eurasian migrants who stay between October and April. Tour Features: This is a shared mid-range tour using tented camps, This tour can start on any day, subject to availability, The accommodations and destinations of this tour can slightly be customized, This tour is suitable for solo travelers, couples, families with older children, and a small group of friends, This tour accepts children who are aged 6 years and older. Children under 16 receive a discount"
+    },
+    {
+      "id": 1,
+      "location": "Southern Tanzania",
+      "name": "Tarangire",
+      "image": "tarangire.jpeg",
+      "day": "on",
+      "category": "tz",
+      "default_day": "off",
+      "description": "Tarangire is situated on the south of large open grass plains of southern Masailand. The name Tarangire is derived from the Tarangire River which provides permanent water for wildlife. In the dry season, Tarangire has a high concentration of wildlife, second only to Ngorongoro Crater. Animals found in Tarangire, include lion, leopard, oryx, gnu and greater and lesser kudu. Also included are: wildebeest, zebras, Thompson's gazelle, Grant's gazelle, buffalo, elephant, impala, and eland. Over 300 species of birds are recorded in the park. Some Eurasian migrants are found, which are present from October - April. Tarangire is an ornithologists paradise rich in birds of prey and an incredible diversity of fauna Vegetation: Principal features are the grassland and flood plains which consist of open grassland, acacia trees, rich woodland, found besides tributaries and orchard bush. This park is symbolised by the Baobab tree, dotted throughout the park growing in open acacia woodland."
+    },
+    {
+      "id": 1,
+      "location": "Eastern",
+      "name": "Lake Manyara",
+      "image": "manyara.jpeg",
+      "day": "on",
+      "category": "tz",
+      "default_day": "off",
+      "description": "Lake Manyara is a shallow lake in the the East African Rift said by Ernest Hemingway to be the 'loveliest [lake] ... in Africa,'. It is also the home of a diverse set of landscapes and wildlife. While most known for baboons, the lake and its environs is also home to herbivores such as hippos, impalas, elephants, wildebeests, buffalo, warthogs and giraffes. Lake Manyara provides opportunities for ornithologists keen on viewing and observing over 300 migratory birds, including flamingo, Long-crested Eagle and Grey-headed Kingfisher."
+    },
+    {
+      "id": 1,
+      "location": "Eastern",
+      "name": "Arusha National Park",
+      "image": "arusha.jpeg",
+      "day": "on",
+      "category": "tz",
+      "default_day": "off",
+      "description": "Arusha National Park is a relatively small park, covering an area of 137 square kilometers (52.9 square miles) Lying between the peaks of Kilimanjaro and Meru, Arusha National Park is an area of outstanding beauty. The Park has a wide range of habitats, from the string of crater lakes where many water birds can be watched, through the highland montane forest and on up to the imposing summit of Mt. Meru. The interesting geology of the area is reflected in the impressive view of the ash cone and cliff face leading to the summit of Mt. Meru. Three distinct areas are to be found within Arusha National Park: Ngurdoto Crater, the Momela Lakes and the rugged Mt. Meru. Altitudes range from 1,500 meters (4,921 feet) above sea level at Momela to over 4,500 (14,764 feet) meters at the summit of Meru."
     }
+
   ],
   "ZanGallery": [
     {

@@ -9,7 +9,8 @@ import Packages from "./pages/Packages.tsx";
 import Contact from "./pages/Contact.tsx";
 import Tanzania from "./pages/Tanzania.tsx";
 import Zanzibar from "./pages/Zanzibar.tsx";
-// import "../src/assets/style.css";
+import TanSafari from "./pages/TanSafari.tsx";
+import ZanExcursion from "./pages/ZanExcursion.tsx";
 
 function App() {
   return (
@@ -27,6 +28,9 @@ function App() {
               <Route path="/contact" element={<Contact />} />
               <Route path="/tanzania" element={<Tanzania />} />
               <Route path="/zanzibar" element={<Zanzibar />} />
+              <Route path="/zanexcursion" element={<ZanExcursion />} />
+              <Route path="/tansafari" element={<TanSafari />} />
+
 
             </Routes>
           </main>

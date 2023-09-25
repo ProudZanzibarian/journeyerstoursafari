@@ -11,12 +11,10 @@ const ZnzSection: React.FC = () => {
             <div className="row">
               <div className="col-lg-8 offset-lg-2">
                 <h5 className="dash-style">EXPLORE GREAT PLACES</h5>
+
                 <h3>Zanzibar Day Trips</h3>
                 <p>
-                  Mollit voluptatem perspiciatis convallis elementum corporis
-                  quo veritatis aliquid blandit, blandit torquent, odit placeat.
-                  Adipiscing repudiandae eius cursus? Nostrum magnis maxime
-                  curae placeat.
+                Zanzibar is an archipelago about 86 km long and 39 km wide. It’s formed by two main islands, Unguja (commonly known as Zanzibar) and Pemba, as well as several smaller islands including Mafia, Chumbe and Mnemba Island. It's the place endowed to have nice people, beautiful beaches, weather and variety of tropical fruits. Zanzibar is also well known for growing spices and that's why is called spice island.
                 </p>
               </div>
             </div>
@@ -26,7 +24,7 @@ const ZnzSection: React.FC = () => {
               <TourList limit={3} shortDesc={true} category="znz"/>
             </div>
             <div className="btn-wrap text-center">
-              <Link to={"/packages"} className="button-primary">
+              <Link to={"/zanexcursion"} className="button-primary">
                 VIEW ALL TRIPS
               </Link>
             </div>
