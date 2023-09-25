@@ -6,8 +6,9 @@ import ZnzSection from "../components/ZnzSection";
 import TzSection from "../components/TzSection";
 import Packages from "../components/PackageSection";
 
-
 function Home() {
+
+
   return (
     <>
       <BannerSection/>

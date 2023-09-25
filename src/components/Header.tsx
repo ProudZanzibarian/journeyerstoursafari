@@ -72,8 +72,16 @@ const Header: React.FC = () => {
                                  </li>
                               </ul>
                            </li>
-                           <li >
-                              <Link to="/packages">Activities</Link>
+                           <li className="menu-item-has-children">
+                              <a href="#"> Plans </a>
+                              <ul>
+                                 <li>
+                                    <Link to="/zanexcursion"> Zanzibar Excursion </Link>
+                                 </li>
+                                 <li>
+                                    <Link to="/tansafari"> Tanzania Safari </Link>
+                                 </li>
+                              </ul>
                            </li>
                            <li >
                               <Link to="/packages">All Packages</Link>

@@ -101,7 +101,7 @@ function CallBackSection() {
                 <div className="support-content">
                   <h4>Our 24/7 Emergency Phone Services</h4>
                   <h3>
-                    <a href="#">Call: 123-456-7890</a>
+                    <a href="tel: +255 710 799 443">Call:  +255 710 799 443</a>
                   </h3>
                 </div>
               </div>

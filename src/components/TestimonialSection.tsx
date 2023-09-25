@@ -10,13 +10,13 @@ const Testimonial: React.FC = () => {
          <div className="testimonial-inner testimonial-slider">
             <div className="testimonial-item text-center">
                <figure className="testimonial-img">
-                  <img src="assets/images/img20.jpg" alt=""/>
+                  <img src="src/assets/images/guider.jpeg" alt=""/>
                </figure>
                <div className="testimonial-content">
-                  <p>"  "</p>
+                  <p>“The best things in life are the people we love, the places we’ve been, and all the memories we’ve made along the way.”</p>
                   <cite>
                      Salum Said
-                     <span className="company">Tour Guider</span>
+                     <span className="company">Tour Operator</span>
                   </cite>
                </div>
             </div>

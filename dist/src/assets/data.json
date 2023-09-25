@@ -1,0 +1,163 @@
+{
+  "package": [
+    {
+      "id": 1,
+      "location": "Southern Tanzania",
+      "name": "Mikumi National Park",
+      "image": "mikumi.jpeg",
+      "day": "on",
+      "category": "tz",
+      "default_day": "off",
+      "description": "Mikumi forms the northern border of the Selous Game Reserve, and is one of the most accessible of the Tanzanian national parks. Mikumi is rich in wildlife and contains buffalo, elephant and lion. Also found are wildebeest, zebra, impala, warthog, hippo, and giraffe. Most of the animals can be seen at all seasons. Elephants can be seen throughout the area and buffaloes totaling some 3,000 are to be found on the treeless grassland. Vegetation: The Mkate River Floor Plain with its hard ridges, swamps and black clay grassland, the miombo woodlands lie on hills of east and west, and the rivers with their fringe of tall trees and dense thickets. The TAZARA (Tanzania-Zambia) railway line marks the boundary of Mikumi with Selous to the south"
+    },
+
+    {
+      "id": 2,
+      "location": "Zanzibar",
+      "name": "Stone Town",
+      "image": "stonetown.jpeg",
+      "day": "off",
+      "category": "znz",
+      "default_day": "off",
+      "description": "Town Market, Slave Market, Slave Chambers, National Museum of Zanzibar, High Court Building, Old German Consulate, Africa House (former English Club), Tippu Tip House, Kele Kele Square, Old British Consulate, Orphanage Home, Old Fort, Forodhani Gardens, House of Wonders, Sultan Palace (now Palace Museum), Custom House, Old Dispensary, Old Harbour, Dr. David Livingstone House, Maruhubi Palace (Ruins), are among the interesting sites on this guided tour of Zanzibar. The Three hour guided tour begins and ends at your hotel. The tour commences at the City Market and covers all above places. You are then driven or walk (optional) to the Natural Museum: a library that includes books on Zanzibar and East Africa. The exhibits also include stuffed specimens of local birds, a small but useful herbarium of native plants, and a collection of shells. You leave and head along the waterfront to Shangani - Old British Consulate (the late Dr. Livingstone body remained here and later sent to Britain), the Arab Fort (built in the 1700), the House of Wonders (built in 1883)."
+    },
+    {
+      "id": 3,
+      "location": "Southern Tanzania",
+      "name": "Selous Game Reserve",
+      "image": "selous.jpeg",
+      "day": "on",
+      "category": "tz",
+      "default_day": "off",
+      "description": "The Selous game reserve is the largest game reserve in Africa (50,000 sq.km) and one of the largest in the world. This was Coastal's first destination and remains one of the most popular for flying safaris. This is rough territory, long distances and frequently flooded roads. The Rufiji River and its tributaries form a large network of lakes and rivers, making it ideal for boat safaris and for observing wildlife from a different perspective."
+    },
+    {
+      "id": 4,
+      "location": "Zanzibar",
+      "name": "Dolphin & Snorkeling at Mnemba",
+      "image": "mnemba.jpeg",
+      "day": "off",
+      "category": "znz",
+      "default_day": "off",
+      "description": "Mnemba Island is a single small island about 500 meters, opposite Muyuni Beach, northeast of Zanzibar island. It is one of the exclusive marine conservation areas in Tanzania with wide varieties of corals and associate species of tropical colorful fish as well as occasional sightings of larger species such as turtles and dolphins. The island is privately owned but snorkeling around the island is unlimited, while snorkeling, we easily spot groups of humpback dolphins, triggerfish, surgeonfish, butterflyfish, zebrafish, and countless other species of fish and if you are lucky you can spot turtles. After snorkeling, we visit at Muyuni Beach for relaxing and refreshments before returning to the hotel."
+    },
+    {
+      "id": 5,
+      "location": "Zanzibar",
+      "name": "Spice Tour & Village Life Insight (5 hours)",
+      "image": "spice.jpeg",
+      "day": "off",
+      "category": "znz",
+      "default_day": "off",
+      "description": "We drive to the central part of the Island at Kizimbani, a farming village. It has a long history of spice production since the Arab colonial. Firstly you will be welcomed by the local mamas (woman) in the village and have spice tea as welcome drinks as per the traditions of people in Zanzibar. You will be given a traditional mate to seat and start learning and practicing the Swahili cooking's. Under the guidance of experienced Zanzibar local woman cook, you will practice cooking a delicious Swahili dish for lunch, with a fusion of Arab, Indian, and African influences and the important role of spices in our daily life. After the cooking class, we will guide you to the Spice plantation to experience different spices in nature after using them in the kitchen. Here you will learn about their properties, their origins, and their use as medicines. Depending on the season you are visiting, you can find anything from vanilla, cardamom, cinnamon, nutmeg, turmeric, lemon grass, cloves, ginger, coriander, pepper, allspice, chili, curry leaves, and more! In another session, you will experience how the local Zanzibaris harvest the coconuts by climbing the coconut tree. You will learn and practice how to weave Makuti (a coconut leaf roof making) and weaving a basket by coconut leaves. The tour ends after eating lunch together with our host from what you have prepared before."
+    },
+    {
+      "id": 6,
+      "location": "Zanzibar",
+      "name": "Sandbank & Prison Island Trip",
+      "image": "prison.jpeg",
+      "day": "off",
+      "category": "znz",
+      "default_day": "off",
+      "description": "In this full day trip, we depart from one of the Stone Town beaches for Prison Island, locally known as Changuu Island. Feed and play with the Aldabra's giant tortoise and visit the old slave prison ruins. We will set off again with our traditional dhow to Pange Island (Sandbank). On the way, we serve a light breakfast with ginger-spiced tea and juices, homemade bread, and tropical fruits. It gives you time to relax on the beach, get a nice tan, and enjoy the wonderful clear blue waters."
+    },
+    {
+      "id": 7,
+      "location": "Zanzibar",
+      "name": "Tumbatu Island Cultural Tour (6 hours)",
+      "image": "tumbatu.jpeg",
+      "day": "off",
+      "category": "znz",
+      "default_day": "off",
+      "description": "The tour starts at 9:00 am from Mkokoni local dhow harbor and fishing village. We do a short visit of the place before heading to Tumbatu Island, where you will visit the local fish & furniture market, also the local cargo dhows and fishing boats. It takes 30 minutes to the island by a small boat. There we stop at the lagoon to learn the fishing methods used by locals and their fishing traps. We'll visit different areas to experience the local's daily life, from the harbor to meet with dhow crafters and fishermen repairing the nets to the old baobab trees which used to be a school/classroom. We will proceed to the interesting part of the tour by visiting a witch doctor (spiritual healer) and learn about traditional, spiritual & ritual treatments and herbs. Visiting Shiraz ruins, Shiraz was the earliest settlers and the local rulers of the Zanzibar Islands and Tumbatu Island before the 12th century. Hot local lunch will be served at the end, includes rice, coconut curry, seafood, and fruits."
+    },
+    {
+      "id": 8,
+      "location": "Zanzibar",
+      "name": "Jozani Forest",
+      "image": "jozani.jpeg",
+      "day": "off",
+      "category": "znz",
+      "default_day": "off",
+      "description": "We will pick you up from your hotel to Jozani Forest, an eclectic bio-diversity, with many strange and wonderful animals residing in it. The forest is a home to the few remaining Red Colobus Monkeys in the world which are the most famous inhabitants of the forest. They play freely throughout the reserve and they can be spotted at close distance. You will also enjoy the fresh air during walking beneath the big red Mahogany and Eucalyptus trees. If you are lucky enough you may see Sunnis (small deer), chameleon or even the famous Zanzibar Fischer's Turaco bird!! Later you will walk on a mangrove board to see different types of mangroves which are available on the Island. The different variety of marine life can be seen. Many more forest inhabitants are possible to be seen with sharp eyes! After the tour you will return to the hotel."
+    },
+    {
+      "id": 9,
+      "location": "Zanzibar",
+      "name": "Safari Blue Picnic",
+      "image": "safariblue.jpeg",
+      "day": "off",
+      "category": "znz",
+      "default_day": "off",
+      "description": "Safari Blue is a full day excursion on traditional sailing dhows. The trip starts from the fishing village of Fumba, on the southwest corner of the Island, 30 minutes' drive from Stone Town. Fumba is part of the Menai Bay conservation area since 1998. The bay has a number of beautiful uninhabited islands and sandbanks. We board the dhows and set off to explore the bay, later we drop anchor by a sandbank where beginners or less confident swimmers can enjoy the Indian Ocean while enjoying tropical fruits, soft drinks, and sunbathing. The next stop is snorkeling in beautiful corals where you can see different colorful tropical fishes, with the help of life jackets and a guide for beginners or less confident swimmers. On Kwale Island a traditional seafood buffet lunch will be served and it includes grilled fish, slipper lobster, calamari, prawns, French Fries, rice, and vegetable sauces - all served hot from the grill. A visit to the beautiful mangrove lagoon to swim through a mangrove forest (tide-permitting). We will return to the main Island by sail if the weather allows."
+    },
+    {
+      "id": 10,
+      "location": "Southern Tanzania",
+      "name": "Nyerere National Park Fly-In / Fly-Out Safari",
+      "image": "nyerere.jpeg",
+      "day": "off",
+      "category": "pck",
+      "default_day": "3 Days / 2 Nights",
+      "description": "Nyerere National Park is Tanzania’s largest national park. Formerly Selous Game Reserve, Tanzania’s largest national park was in recent years renamed Nyerere National Park in memory of Julius Kambarage Nyerere – Father of the Tanzania Nation – who served as the first President of Tanzania and previously Tanganyika, from the country’s founding in 1961 until his retirement in 1985. A UNESCO World Heritage Site, this pristine uninhabited area is larger than Switzerland, whose lifeblood is the mighty Rufiji River – the largest and longest river in Tanzania. A 45-minute flight by daily scheduled light aircraft from Zanzibar or Dar es Salaam enables visitors to experience superb game drives as well as boat and walking safaris. Tour Features: This is a shared mid-range tour using tented camps, This tour can start on any day, subject to availability, The accommodations and destinations of this tour can slightly be customized, This tour is suitable for solo travelers, couples, families with older children, and a small group of friends, This tour accepts children who are aged 6 years and older. Children under 16 receive a discount"
+    },
+    {
+      "id": 11,
+      "location": "Southern Tanzania",
+      "name": "Ruaha National Park Fly-In / Fly-Out Safari",
+      "image": "ruaha.jpeg",
+      "day": "off",
+      "category": "pck",
+      "default_day": "3 Days / 2 Nights",
+      "description": "Ruaha is Tanzania’s second-largest national park and offers superb wildlife viewing, especially during the dry season from July to November when the animals are concentrated around shrinking water courses. The park’s name derives from the Great Ruaha River which flows along its eastern border, creating spectacular gorges. In addition to the big game, birdlife is prolific, with over 370 species recorded, some of which are not found in northern Tanzania – Eurasian migrants flock to Ruaha twice a year – March to April and October to November. Tour Features: This is a shared mid-range tour using tented camps, This tour can start on any day, subject to availability, The accommodations and destinations of this tour can slightly be customized, This tour is suitable for solo travelers, couples, families with older children, and a small group of friends, This tour accepts children of all ages. Children under 16 receive a discount"
+    },
+    {
+      "id": 12,
+      "location": "Southern Tanzania",
+      "name": "Serengeti National Park Fly-In / Fly-Out Safari",
+      "image": "serengeti.jpeg",
+      "day": "off",
+      "category": "pck",
+      "default_day": "3 Days / 2 Nights",
+      "description": "The Serengeti, a UNESCO World Heritage Site is arguably the best-known wildlife sanctuary in the world. “Serengeti” means “endless plains” in the Maasai language, and within its boundaries are then three million large mammals. In May or early June, huge herds of wildebeest and zebra begin their spectacular 600-mile pilgrimage – in their wake follow the predators – lion, leopard, cheetah, hyena, and jackal – while vultures circle overhead and some of Africa’s largest crocodile lie in wait. There is, of course, also a profusion of bird life – over 500 species. Described by UNESCO as “one of the most impressive natural spectacles in the world” – its sheer marvel has best been captured by the “Academy Award for Best Documentary Feature” in 1960’s Serengeti Shall Not Die (German: Serengeti darf nicht sterben) – the 1959 German documentary film written and directed by Bernhard Grzimek. Tour Features: This is a shared mid-range tour using lodges, This tour can start on any day, subject to availability, The accommodations and destinations of this tour can slightly be customized, This tour is suitable for solo travelers, couples, families with older children, and a small group of friends, This tour accepts children who are 6 years and older. Children under 16 receive a discount."
+    },
+    {
+      "id": 13,
+      "location": "Southern Tanzania",
+      "name": "Mikumi National Park Fly-In / Fly-Out Safari",
+      "image": "mikumi2.jpeg",
+      "day": "off",
+      "category": "pck",
+      "default_day": "2 Days / 1 night",
+      "description": "This is a short safari for visitors with limited time for a longer safari. Mikumi National Park offers a wide range of wildlife inhabiting its 3,230 sq. km area. Unique sightings are groups of female and young bachelor sable with their one dominant male. Over 400 species of birds have been observed in the park, many of which are Eurasian migrants who stay between October and April. Tour Features: This is a shared mid-range tour using tented camps, This tour can start on any day, subject to availability, The accommodations and destinations of this tour can slightly be customized, This tour is suitable for solo travelers, couples, families with older children, and a small group of friends, This tour accepts children who are aged 6 years and older. Children under 16 receive a discount"
+    }
+  ],
+  "ZanGallery": [
+    {
+      "url": "z1.jpeg"
+    },
+    {
+      "url": "z2.jpeg"
+    },
+    {
+      "url": "z3.jpeg"
+    },
+    {
+      "url": "z4.jpeg"
+    }
+  ],
+  "TanGallery": [
+    {
+      "url": "t1.jpeg"
+    },
+    {
+      "url": "t2.jpeg"
+    },
+    {
+      "url": "t3.jpeg"
+    },
+    {
+      "url": "t4.jpeg"
+    }
+  ]
+}

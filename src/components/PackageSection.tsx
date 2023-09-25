@@ -10,13 +10,9 @@ const Packages: React.FC = () => {
           <div className="section-heading text-center">
             <div className="row">
               <div className="col-lg-8 offset-lg-2">
-                <h5 className="dash-style">EXPLORE GREAT PLACES</h5>
                 <h3>Best Packages</h3>
                 <p>
-                  Mollit voluptatem perspiciatis convallis elementum corporis
-                  quo veritatis aliquid blandit, blandit torquent, odit placeat.
-                  Adipiscing repudiandae eius cursus? Nostrum magnis maxime
-                  curae placeat.
+                At Journeyers Tour & Safari, we understand that a safari transcends the mere presence of extraordinary wildlife in East Africa. Instead, it's the synergy of interconnected elements that crafts an unforgettable safari experience for our valued guests. This ultimate satisfaction prompts delighted clients to share their experiences with friends and family, leading to more travelers choosing to embark on journeys with us!
                 </p>
               </div>
             </div>
