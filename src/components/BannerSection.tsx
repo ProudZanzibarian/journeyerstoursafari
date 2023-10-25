@@ -1,18 +1,34 @@
 import React from "react";
+import Slider from "react-slick";
 import { Link } from "react-router-dom";
 
 const BannerSection: React.FC = () => {
+  const sliderSettings = {
+    dots: false,
+    infinite: true,
+    autoplay: true, 
+    autoplaySpeed: 5000, 
+    speed: 1200,
+    fade: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    adaptiveHeight: false,
+  };
+
   return (
     <section className="home-slider-section">
-      <div className="home-slider">
+      <Slider {...sliderSettings} className="home-slider">
         <div className="home-banner-items">
-          <div className="banner-inner-wrap" style={{backgroundImage: "url(./src/assets/images/banner1.jpeg)"}}></div>
+          <div
+            className="banner-inner-wrap"
+            style={{ backgroundImage: "url(./src/assets/images/banner1.jpeg)" }}
+          ></div>
           <div className="banner-content-wrap">
             <div className="container">
               <div className="banner-content text-center">
                 <h2 className="banner-title">Journeyers Tour & Safari</h2>
                 <p>
-                Certified by Travelife, part of Responsible Tourism Tanzania. Your holiday will make a difference.
+                  Certified by Travelife, part of Responsible Tourism Tanzania. Your holiday will make a difference.
                 </p>
                 <Link to="/about" className="button-primary">
                   CONTINUE READING
@@ -22,14 +38,18 @@ const BannerSection: React.FC = () => {
           </div>
           <div className="overlay"></div>
         </div>
+
         <div className="home-banner-items">
-          <div className="banner-inner-wrap" style={{backgroundImage: "url(./src/assets/images/banner2.jpeg)"}}></div>
+          <div
+            className="banner-inner-wrap"
+            style={{ backgroundImage: "url(./src/assets/images/banner2.jpeg)" }}
+          ></div>
           <div className="banner-content-wrap">
             <div className="container">
               <div className="banner-content text-center">
                 <h2 className="banner-title">Journeyers Tour & Safari</h2>
                 <p>
-                Certified by Travelife, part of Responsible Tourism Tanzania. Your holiday will make a difference.
+                  Certified by Travelife, part of Responsible Tourism Tanzania. Your holiday will make a difference.
                 </p>
                 <Link to="/about" className="button-primary">
                   CONTINUE READING
@@ -39,7 +59,7 @@ const BannerSection: React.FC = () => {
           </div>
           <div className="overlay"></div>
         </div>
-      </div>
+      </Slider>
     </section>
   );
 };

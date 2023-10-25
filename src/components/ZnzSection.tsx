@@ -14,7 +14,7 @@ const ZnzSection: React.FC = () => {
 
                 <h3>Zanzibar Day Trips</h3>
                 <p>
-                Zanzibar is an archipelago about 86 km long and 39 km wide. It’s formed by two main islands, Unguja (commonly known as Zanzibar) and Pemba, as well as several smaller islands including Mafia, Chumbe and Mnemba Island. It's the place endowed to have nice people, beautiful beaches, weather and variety of tropical fruits. Zanzibar is also well known for growing spices and that's why is called spice island.
+                Zanzibar is an archipelago about 86 km long and 39 km wide. It’s formed by two main islands, Unguja (commonly known as Zanzibar) and Pemba, as well as several smaller islands including Mafia, Chumbe and Mnemba Island... <Link to={"/zanexcursion"}> read more </Link>
                 </p>
               </div>
             </div>

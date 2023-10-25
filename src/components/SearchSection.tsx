@@ -42,45 +42,59 @@ const Search: React.FC = () => {
     <div className="trip-search-section shape-search-section">
       <div className="slider-shape"></div>
       <div className="container">
-        <div className="trip-search-inner white-bg d-flex">
-          <div className="input-group">
-            <label> Full Name </label>
-            <input type="text" name="fname" placeholder="Ful Name" />
+        <form action="" method="post">
+          <div className="trip-search-inner white-bg d-flex">
+            <div className="input-group">
+              <label> Full Name </label>
+              <input type="text" name="fname" placeholder="Full Name" />
+            </div>
+            <div className="input-group">
+              <label> Email </label>
+              <input type="email" name="email" placeholder="email" />
+            </div>
+            <div className="input-group">
+              <label> Select Destination </label>
+              <select name="" id="">
+                <option value="">--Select Tour--</option>
+                {tours.map((tour) => (
+                  <>
+                    <option value={tour.name}>{tour.name}</option>
+                  </>
+                ))}
+                <option value="Ngorongoro">Ngorongoro</option>
+
+                <option value="Transfer">Transfer</option>
+                <option value="Others">Others</option>
+              </select>
+            </div>
+            <div className="input-group">
+              <label> People Number </label>
+              <input type="number" name="s" placeholder="No.of People" />
+            </div>
+            <div className="input-group width-col-3">
+              <label> Pick-up Date </label>
+              <input
+                className="input-date-picker"
+                type="date"
+                name="s"
+                placeholder="MM / DD / YY"
+              />
+            </div>
+            <div className="input-group " id="desc">
+              <textarea
+                name="msg"
+                id=""
+                cols={90}
+                rows={1}
+                placeholder="Write your Message"
+              ></textarea>
+            </div>
+            <div className="input-group width-col-3">
+              <label className="screen-reader-text"> Search </label>
+              <input type="submit" name="travel-search" value="Book Now" />
+            </div>
           </div>
-          <div className="input-group">
-            <label> Email </label>
-            <input type="email" name="email" placeholder="email" />
-          </div>
-          <div className="input-group">
-            <label> Select Destination </label>
-            <select name="" id="">
-              <option value="">--Select Tour--</option>
-              {tours.map((tour) => (
-                <option value={tour.name}>{tour.name}</option>
-              ))}
-            </select>
-          </div>
-          <div className="input-group">
-            <label> People Number </label>
-            <input type="number" name="s" placeholder="No.of People" />
-          </div>
-          <div className="input-group width-col-3">
-            <label> Arrival Date </label>
-            <i className="far fa-calendar"></i>
-            <input
-              className="input-date-picker"
-              type="text"
-              name="s"
-              placeholder="MM / DD / YY"
-              autoComplete="off"
-              readOnly
-            />
-          </div>
-          <div className="input-group width-col-3">
-            <label className="screen-reader-text"> Search </label>
-            <input type="submit" name="travel-search" value="Book Now" />
-          </div>
-        </div>
+        </form>
       </div>
     </div>
   );

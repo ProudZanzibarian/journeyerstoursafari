@@ -25,17 +25,11 @@ const Header: React.FC = () => {
                      <div className="col-lg-4 d-flex justify-content-lg-end justify-content-between">
                         <div className="header-social social-links">
                            <ul>
-                              <li><a href="#"><i className="fab fa-facebook-f" aria-hidden="true"></i></a></li>
-                              <li><a href="#"><i className="fab fa-twitter" aria-hidden="true"></i></a></li>
-                              <li><a href="#"><i className="fab fa-instagram" aria-hidden="true"></i></a></li>
-                              <li><a href="#"><i className="fab fa-linkedin" aria-hidden="true"></i></a></li>
+                              <li><a href="https://www.facebook.com/profile.php?id=61552067602225&mibextid=ZbWKwL"><i className="fab fa-facebook-f"  aria-hidden="true"></i></a></li>
+                              <li><a target='_blank' href="https://api.whatsapp.com/send?phone=255710799443&text=Hi Journeyers Tour & Safari."><i className="fab fa-whatsapp" aria-hidden="true"></i></a></li>
                            </ul>
                         </div>
-                        <div className="header-search-icon">
-                           <button className="search-icon">
-                              <i className="fas fa-search"></i>
-                           </button>
-                        </div>
+
                      </div>
                   </div>
                </div>
@@ -57,10 +51,7 @@ const Header: React.FC = () => {
                               <Link to="/">Home</Link>
  
                            </li>
-                           <li >
-                              <Link to="/about">About</Link>
- 
-                           </li>
+
                            <li className="menu-item-has-children">
                               <a href="#">Gallery</a>
                               <ul>
@@ -87,13 +78,14 @@ const Header: React.FC = () => {
                               <Link to="/packages">All Packages</Link>
                            </li>
                            <li >
+                              <Link to="/about">Aboutus</Link>
+ 
+                           </li>
+                           <li >
                               <Link to="/contact">Contact</Link>
                            </li>
                         </ul>
                      </nav>
-                  </div>
-                  <div className="header-btn">
-                     <a href="#" className="button-primary">BOOK NOW</a>
                   </div>
                </div>
             </div>

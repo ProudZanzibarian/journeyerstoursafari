@@ -1,5 +1,5 @@
 import BannerSection from "../components/BannerSection";
-import CallBackSection from "../components/CallBackSection";
+// import CallBackSection from "../components/CallBackSection";
 import Search from "../components/SearchSection";
 import Testimonial from "../components/TestimonialSection";
 import ZnzSection from "../components/ZnzSection";
@@ -16,7 +16,7 @@ function Home() {
       <ZnzSection/>
       <TzSection/>
       <Packages/>
-      <CallBackSection/>
+      {/* <CallBackSection/> */}
       <Testimonial/>
     </>
   );

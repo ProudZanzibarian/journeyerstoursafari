@@ -10,7 +10,7 @@ const UpperSection: React.FC<UpperSectionProps> = ({ name }) => {
       <div
         className="inner-baner-container"
         style={{
-          backgroundImage: "url(src/assets/images/banner2.jpeg)"
+          backgroundImage: "url(./src/assets/images/banner2.jpeg)"
         }}
       >
         <div className="container">

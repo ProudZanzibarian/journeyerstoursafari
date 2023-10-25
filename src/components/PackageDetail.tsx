@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
+import UpperSection from "./UpperSection";
 
 interface RouteParams {
   id: string;
@@ -9,9 +10,10 @@ interface RouteParams {
 interface Tour {
   id: number;
   name: string;
+  heading: string;
   description: string;
   location: string;
-  day : string;
+  day: string;
 }
 
 function PackageDetail() {
@@ -56,6 +58,8 @@ function PackageDetail() {
   }
 
   return (
+    <>
+    <UpperSection name={tour.heading} />
     <main id="content" className="site-main" key={tour.id}>
       <div className="single-tour-section">
         <div className="container">
@@ -164,15 +168,15 @@ function PackageDetail() {
                         <input
                           className="input-date-picker"
                           type="text"
-                          name="s"
+                          name="pickup"
                           autoComplete="off"
                           readOnly
-                          placeholder="Arrival Date"
+                          placeholder="Pick-up Date"
                         />
                       </div>
                     </div>
                     <div className="col-sm-12">
-                      <h4 className="">Add Options</h4>
+                    <textarea name="msg" id="" cols={90} rows={9} placeholder="Write your Message"></textarea>
                     </div>
 
                     <div className="col-sm-12">
@@ -188,6 +192,7 @@ function PackageDetail() {
         </div>
       </div>
     </main>
+    </>
   );
 }
 

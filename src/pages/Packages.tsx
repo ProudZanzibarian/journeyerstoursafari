@@ -1,9 +1,11 @@
+import ScrollToTop from "../components/Totop";
 import TourList from "../components/TourList";
 import UpperSection from "../components/UpperSection";
 
 function Packages() {
   return (
     <>
+    <ScrollToTop/>
       <UpperSection name={"All Packages"} />
       <section className="package-section">
         <div className="container">

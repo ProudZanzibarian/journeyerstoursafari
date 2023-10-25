@@ -575,7 +575,7 @@ a:visited {
   text-transform: uppercase;
 }
 .section-heading h5 {
-  color: #F56960;
+  color: #f29d1c;
   font-size: 15px;
   font-weight: 700;
   line-height: 1.2;
@@ -605,7 +605,7 @@ a:visited {
   position: relative;
 }
 .section-heading .dash-style:before {
-  background-color: #F56960;
+  background-color: #f29d1c;
   content: "";
   height: 2px;
   width: 70px;
@@ -771,7 +771,7 @@ input[type=datetime]:focus,
 input[type=datetime-local]:focus,
 input[type=color]:focus,
 textarea:focus {
-  border-color: #F56960;
+  border-color: #f29d1c;
   outline: 0;
 }
 input[type=text]:-webkit-autofill, input[type=text]:-webkit-autofill:hover, input[type=text]:-webkit-autofill:focus, input[type=text]:-webkit-autofill:active,
@@ -873,7 +873,7 @@ form label {
   padding: 0 55px 0 10px;
 }
 .search-form button {
-  background-color: #F56960;
+  background-color: #f29d1c;
   color: #ffffff;
   font-size: 15px;
   border: none;
@@ -925,7 +925,7 @@ form label {
   top: 2px;
 }
 .form-group label .custom-checkbox:before {
-  background-color: #F56960;
+  background-color: #f29d1c;
   content: "\f00c";
   font-family: "Font Awesome 5 Free";
   height: 100%;
@@ -945,7 +945,7 @@ form label {
   z-index: -9;
 }
 .form-group label input:checked ~ .custom-checkbox {
-  border-color: #F56960;
+  border-color: #f29d1c;
 }
 .form-group label input:checked ~ .custom-checkbox:before {
   opacity: 1;
@@ -1035,7 +1035,7 @@ input[type=button],
 input[type=reset],
 input[type=submit] {
   border: none;
-  background-color: #F56960;
+  background-color: #f29d1c;
   color: #ffffff;
   cursor: pointer;
   padding: 15px 30px;
@@ -1058,7 +1058,7 @@ input[type=submit]:focus {
 
 .button-primary,
 .button-round {
-  background-color: #F56960;
+  background-color: #f29d1c;
 }
 
 .button-secondary {
@@ -1132,7 +1132,7 @@ input[type=submit]:focus {
   transition: all 0.4s;
 }
 .button-text:hover, .button-text:focus, .button-text:active {
-  color: #F56960;
+  color: #f29d1c;
 }
 
 /*--------------------------------------------------------------
@@ -1147,7 +1147,7 @@ input[type=submit]:focus {
 }
 
 .primary-bg {
-  background-color: #F56960;
+  background-color: #f29d1c;
 }
 
 .secondary-bg {
@@ -1227,7 +1227,7 @@ input[type=submit]:focus {
   flex-grow: 1;
 }
 .social-icon-wrap .social-icon a {
-  background-color: #F56960;
+  background-color: #f29d1c;
   color: #ffffff;
   display: -webkit-box;
   display: -moz-box;
@@ -1354,13 +1354,13 @@ input[type=submit]:focus {
   transition: all 0.5s;
 }
 .pagination li a:hover {
-  background-color: #F56960;
-  border-color: #F56960;
+  background-color: #f29d1c;
+  border-color: #f29d1c;
   color: #ffffff;
 }
 .pagination li.active a {
-  background-color: #F56960;
-  border-color: #F56960;
+  background-color: #f29d1c;
+  border-color: #f29d1c;
   color: #ffffff;
 }
 
@@ -1596,7 +1596,7 @@ input[type=submit]:focus {
   display: block;
 }
 .main-navigation ul > li:hover > a, .main-navigation ul > li:focus > a, .main-navigation ul > li:active > a {
-  color: #F56960;
+  color: #f29d1c;
 }
 .main-navigation ul > li:hover > a:after, .main-navigation ul > li:focus > a:after, .main-navigation ul > li:active > a:after {
   -webkit-transform: rotate(180deg);
@@ -1607,7 +1607,7 @@ input[type=submit]:focus {
 }
 .main-navigation ul ul {
   background: #ffffff;
-  border-top: 4px solid #F56960;
+  border-top: 4px solid #f29d1c;
   left: 0;
   margin: 0;
   padding: 0;
@@ -1642,7 +1642,7 @@ input[type=submit]:focus {
 }
 .main-navigation ul ul li a:hover, .main-navigation ul ul li a:focus, .main-navigation ul ul li a:active {
   padding-left: 30px;
-  color: #F56960;
+  color: #f29d1c;
 }
 .main-navigation ul ul li > ul {
   left: 100%;
@@ -1694,7 +1694,7 @@ input[type=submit]:focus {
   color: #ffffff;
 }
 .main-navigation ul li.current-menu-item > a, .main-navigation ul li.current-menu-parent > a {
-  color: #F56960;
+  color: #f29d1c;
 }
 
 @-webkit-keyframes slide-up {
@@ -2522,6 +2522,11 @@ input[type=submit]:focus {
   width: 20%;
   padding: 8px;
 }
+#desc{
+  width: 80%;
+  padding: 8px;
+}
+
 .trip-search-section .input-group i {
   position: absolute;
   bottom: 25px;
@@ -2571,7 +2576,7 @@ input[type=submit]:focus {
   line-height: 1.6;
 }
 .trip-search-section input[type=submit] {
-  background-color: #F56960;
+  background-color: #f29d1c;
   color: #ffffff;
   line-height: 1.3;
   font-weight: 600;
@@ -2658,7 +2663,7 @@ input[type=submit]:focus {
   margin-bottom: 4px;
 }
 .overlay-desti-item .desti-content h3 a:hover {
-  color: #F56960;
+  color: #f29d1c;
 }
 
 .desti-item {
@@ -2732,7 +2737,7 @@ input[type=submit]:focus {
   margin-bottom: 4px;
 }
 .desti-content h3 a:hover {
-  color: #F56960;
+  color: #f29d1c;
 }
 
 .btn-wrap a {
@@ -2767,7 +2772,7 @@ input[type=submit]:focus {
   top: 0;
 }
 .rating-start span:before {
-  color: #F56960;
+  color: #f29d1c;
   content: "\f005\f005\f005\f005\f005";
   display: inline-block;
   font-family: "Font Awesome 5 free";
@@ -2830,7 +2835,7 @@ input[type=submit]:focus {
   border-left: 1px solid rgba(175, 175, 175, 0.1);
 }
 .package-wrap .package-content .btn-wrap a [class*=fa-] {
-  color: #F56960;
+  color: #f29d1c;
   font-size: 13px;
   margin-left: 8px;
 }
@@ -2856,7 +2861,7 @@ input[type=submit]:focus {
   margin-left: 5px;
 }
 .package-wrap .package-price {
-  background-color: #F56960;
+  background-color: #f29d1c;
   position: absolute;
   top: 20px;
   right: 0;
@@ -3182,7 +3187,7 @@ input[type=submit]:focus {
   margin-right: 26px;
 }
 .support-area h3 {
-  color: #F56960;
+  color: #f29d1c;
   font-family: "Open Sans", sans-serif;
   font-size: 30px;
   font-weight: 900;
@@ -3587,7 +3592,7 @@ input[type=submit]:focus {
   -ms-flex-pack: center;
 }
 .special-item .badge-dis {
-  background-color: #F56960;
+  background-color: #f29d1c;
   box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
   color: #ffffff;
   -webkit-border-radius: 100%;
@@ -3629,10 +3634,10 @@ input[type=submit]:focus {
   line-height: 1.2;
 }
 .special-content .meta-cat a:hover, .special-content .meta-cat a:focus {
-  color: #F56960;
+  color: #f29d1c;
 }
 .special-content .package-price {
-  color: #F56960;
+  color: #f29d1c;
   font-size: 18px;
   font-family: "Raleway", Sans-serif;
   font-weight: 700;
@@ -4168,7 +4173,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 }
 
 .testimonial-item .testimonial-img {
-  border: 2px solid #F56960;
+  border: 2px solid #f29d1c;
   -webkit-border-radius: 100%;
   -moz-border-radius: 100%;
   -ms-border-radius: 100%;
@@ -4350,7 +4355,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
   margin: 0 5px;
 }
 .team-item .social-links a {
-  background-color: #F56960;
+  background-color: #f29d1c;
   width: 30px;
   height: 30px;
   line-height: 30px;
@@ -4826,7 +4831,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
   margin-bottom: 20px;
 }
 .home-about-section .about-service-icon {
-  background-color: #F56960;
+  background-color: #f29d1c;
 }
 @media screen and (min-width: 576px) {
   .home-about-section .about-img-left {
@@ -4950,7 +4955,7 @@ procduct details css
   padding: 20px 25px;
 }
 .nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus, .nav-tabs .nav-link.active {
-  color: #F56960;
+  color: #f29d1c;
 }
 
 .tab-container {
@@ -5024,7 +5029,7 @@ procduct details css
   flex-direction: column;
 }
 .itinerary-timeline-wrap .day-count {
-  background-color: #F56960;
+  background-color: #f29d1c;
   color: #ffffff;
   border-radius: 100%;
   height: 40px;
@@ -5066,7 +5071,7 @@ procduct details css
 }
 @media screen and (min-width: 576px) {
   .itinerary-timeline-wrap .day-count {
-    background-color: #F56960;
+    background-color: #f29d1c;
     color: #ffffff;
     border-radius: 100%;
     height: 60px;
@@ -5163,7 +5168,7 @@ procduct details css
 }
 
 .sidebar .package-price {
-  background-color: #F56960;
+  background-color: #f29d1c;
   padding: 20px;
   text-align: center;
   margin-bottom: 50px;
@@ -5193,7 +5198,7 @@ procduct details css
 }
 .sidebar .information-content h5,
 .sidebar .travel-package-content h5 {
-  color: #F56960;
+  color: #f29d1c;
   font-size: 15px;
   font-weight: 700;
   line-height: 1.2;
@@ -5205,7 +5210,7 @@ procduct details css
 }
 .sidebar .information-content h5:before,
 .sidebar .travel-package-content h5:before {
-  background-color: #F56960;
+  background-color: #f29d1c;
   content: "";
   height: 2px;
   width: 50px;
@@ -5461,7 +5466,7 @@ procduct details css
   font-size: 17px;
 }
 .single-post-section .author-wrap .author-content .button-text {
-  color: #F56960;
+  color: #f29d1c;
 }
 .single-post-section .author-wrap .author-content .button-text:hover {
   color: #2C75BA;
@@ -5638,7 +5643,7 @@ procduct details css
   margin-left: 10px;
 }
 .comment-area .comment-content .reply {
-  background-color: #F56960;
+  background-color: #f29d1c;
   font-size: 14px;
   color: #ffffff;
   padding: 5px 12px 6px;
@@ -5847,8 +5852,8 @@ procduct details css
   margin: 0 5px;
 }
 .contact-detail-wrap .contct-social a {
-  color: #F56960;
-  border: 1px solid #F56960;
+  color: #f29d1c;
+  border: 1px solid #f29d1c;
   display: block;
   font-size: 20px;
   line-height: 40px;
@@ -6057,7 +6062,7 @@ procduct details css
   text-align: center;
 }
 .comming-soon-section .time-counter .counter-time {
-  background-color: #F56960;
+  background-color: #f29d1c;
   width: 160px;
   margin: 12px;
   padding: 5px 10px 20px;
@@ -6263,7 +6268,7 @@ procduct details css
   margin-bottom: 80px;
 }
 .search-section .button-container .button-text {
-  color: #F56960;
+  color: #f29d1c;
   text-transform: uppercase;
 }
 .search-section .button-container .button-text:hover {
@@ -6386,7 +6391,7 @@ procduct details css
   width: 100%;
 }
 .faq-testimonial .testimonial-content {
-  background-color: #F56960;
+  background-color: #f29d1c;
   color: #ffffff;
   margin-right: 25px;
   margin-top: -100px;
@@ -6437,7 +6442,7 @@ procduct details css
   margin: 0 5px;
 }
 .guide-content-wrap .guide-social a {
-  background-color: #F56960;
+  background-color: #f29d1c;
   color: #ffffff;
   display: block;
   font-size: 15px;
@@ -6611,7 +6616,7 @@ procduct details css
   text-transform: capitalize;
 }
 .career-detail-section .job-description {
-  background-color: #F56960;
+  background-color: #f29d1c;
 }
 .career-detail-section .job-description ul {
   margin: 0;
@@ -7534,7 +7539,7 @@ product checkout css
   display: none;
 }
 .step-link-wrap .step-item.active a {
-  background-color: #F56960;
+  background-color: #f29d1c;
 }
 @media screen and (max-width: 575px) {
   .step-link-wrap {
@@ -7582,7 +7587,7 @@ product checkout css
   display: inline-block;
 }
 .booking-content .form-title span {
-  background-color: #F56960;
+  background-color: #f29d1c;
   -webkit-border-radius: 100%;
   -moz-border-radius: 100%;
   -ms-border-radius: 100%;
@@ -7853,7 +7858,7 @@ product checkout css
   color: #ffffff;
 }
 .ui-datepicker .ui-datepicker-calendar tr td a.ui-state-highlight {
-  background-color: #F56960;
+  background-color: #f29d1c;
   color: #ffffff;
 }
 .ui-datepicker .ui-datepicker-calendar tr td a.ui-state-active {
@@ -7868,7 +7873,7 @@ product checkout css
   margin-top: 20px;
 }
 #slider-range .ui-widget-header {
-  background-color: #F56960;
+  background-color: #f29d1c;
 }
 #slider-range .ui-corner-all, #slider-range.ui-widget-content {
   -webkit-border-radius: 0px;
@@ -8023,7 +8028,7 @@ product checkout css
   margin-bottom: 40px;
 }
 .popup-wraper .popup-content h2:before {
-  background-color: #F56960;
+  background-color: #f29d1c;
   content: "";
   height: 2px;
   width: 70px;
@@ -8501,7 +8506,7 @@ product checkout css
   padding: 0 55px 0 10px;
 }
 .widget.search_widget button {
-  background-color: #F56960;
+  background-color: #f29d1c;
   color: #ffffff;
   font-size: 14px;
   border: none;
@@ -8591,7 +8596,7 @@ product checkout css
   margin-bottom: 0;
 }
 .widget.widget_text ul li i {
-  color: #F56960;
+  color: #f29d1c;
   margin-right: 5px;
 }
 .widget.widget_newslatter .newslatter-form {
@@ -8726,7 +8731,7 @@ product checkout css
   display: inline-block;
 }
 .widget.widget_category_product_thumb li .product-content .count {
-  color: #F56960;
+  color: #f29d1c;
   font-family: "Raleway", sans-serif;
   font-weight: 600;
   font-size: 14px;

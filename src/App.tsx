@@ -20,18 +20,16 @@ function App() {
           <Header />
           <main id="content" className="site-main">
             <Routes>
-              <Route path="/" element={<Home />} />
-              <Route path="/about" element={<About />} />
-              <Route path="/gallery" element={<Gallery />} />
-              <Route path="/packages" element={<Packages />} />
-              <Route path="/package/:id" element={<Package />} />
-              <Route path="/contact" element={<Contact />} />
-              <Route path="/tanzania" element={<Tanzania />} />
-              <Route path="/zanzibar" element={<Zanzibar />} />
-              <Route path="/zanexcursion" element={<ZanExcursion />} />
-              <Route path="/tansafari" element={<TanSafari />} />
-
-
+              <Route path="/"  element={<Home />} />
+              <Route path="/about"  element={<About />} />
+              <Route path="/gallery"  element={<Gallery />} />
+              <Route path="/packages"  element={<Packages />} />
+              <Route path="/package/:id"  element={<Package />} />
+              <Route path="/contact"  element={<Contact />} />
+              <Route path="/tanzania"  element={<Tanzania />} />
+              <Route path="/zanzibar"  element={<Zanzibar />} />
+              <Route path="/zanexcursion"  element={<ZanExcursion />} />
+              <Route path="/tansafari"  element={<TanSafari />} />
             </Routes>
           </main>
           <Footer />

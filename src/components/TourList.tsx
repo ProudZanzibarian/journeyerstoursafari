@@ -8,6 +8,7 @@ interface Tour {
   location: string;
   image: string;
   default_day: string;
+  price: string;
 }
 interface TourListProps {
   limit: number;
@@ -66,7 +67,7 @@ function TourList({ limit, shortDesc, category }: TourListProps) {
             </figure>
             <div className="package-price">
               <h6>
-                <span>$1,900 </span> / per person
+                <span>${tour.price} </span> / per person
               </h6>
             </div>
             <div className="package-content-wrap">
@@ -88,12 +89,12 @@ function TourList({ limit, shortDesc, category }: TourListProps) {
                 <h3>
                   <Link to={`/package/${tour.id}`}> {tour.name}</Link>
                 </h3>
-                <div className="review-area">
+                {/* <div className="review-area">
                   <span className="review-text">(25 reviews)</span>
                   <div className="rating-start" title="Rated 5 out of 5">
                     <span style={{ width: "60%" }}></span>
                   </div>
-                </div>
+                </div> */}
                 <p>
                   {!shortDesc
                     ? tour.description

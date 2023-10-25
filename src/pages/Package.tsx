@@ -1,10 +1,10 @@
 import PackageDetail from "../components/PackageDetail";
-import UpperSection from "../components/UpperSection";
+import ScrollToTop from "../components/Totop";
 
 function Package() {
   return (
     <>
-      <UpperSection name=" Zanzibar Day Trips " />
+      <ScrollToTop />
       <PackageDetail />
     </>
   );
