@@ -11,8 +11,8 @@ $REFRESH_TOKEN = $_ENV['REFRESH_TOKEN'];
 
 // Swift Mailer Transport
 $transport = new Swift_SmtpTransport('smtp.gmail.com', 465, 'ssl');
-$transport->setUsername("usama.lion65@gmail.com");
-$transport->setPassword("Masaublita1819");
+$transport->setUsername($EMAIL_ADDRESS);
+$transport->setPassword($REFRESH_TOKEN);
 
 // Create the Mailer using your created Transport
 $mailer = new Swift_Mailer($transport);
