@@ -1,4 +1,5 @@
 import React from "react";
+import upperPhoto from "../assets/images/banner2.jpeg";
 
 interface UpperSectionProps {
   name: string;
@@ -10,7 +11,7 @@ const UpperSection: React.FC<UpperSectionProps> = ({ name }) => {
       <div
         className="inner-baner-container"
         style={{
-          backgroundImage: "url(./src/assets/images/banner2.jpeg)"
+          backgroundImage: `url(${upperPhoto})`,
         }}
       >
         <div className="container">

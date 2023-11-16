@@ -207,6 +207,7 @@
     }
 
   ],
+
   "ZanGallery": [
     {
       "url": "z1.jpeg"
@@ -219,6 +220,24 @@
     },
     {
       "url": "z4.jpeg"
+    },
+    {
+      "url": "z5.jpeg"
+    },
+    {
+      "url": "z6.jpeg"
+    },
+    {
+      "url": "z7.jpeg"
+    },
+    {
+      "url": "z8.jpeg"
+    },
+    {
+      "url": "z9.jpeg"
+    },
+    {
+      "url": "z10.jpeg"
     }
   ],
   "TanGallery": [
@@ -233,6 +252,25 @@
     },
     {
       "url": "t4.jpeg"
+    },
+    {
+      "url": "t5.jpeg"
+    },
+    {
+      "url": "t6.jpeg"
+    },
+    {
+      "url": "t7.jpeg"
+    },
+    {
+      "url": "t8.jpeg"
+    },
+    {
+      "url": "t9.jpeg"
+    },
+    {
+      "url": "t10.jpeg"
     }
   ]
 }
+

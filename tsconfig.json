@@ -20,6 +20,6 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src", "src/assets/js/custom.min.js"],
+  "include": ["src", "src/assets/js/custom.min.js", "server.js"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

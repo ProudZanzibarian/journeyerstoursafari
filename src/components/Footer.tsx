@@ -8,7 +8,7 @@ const Footer: React.FC = () => {
           <div className="row">
             <div className="col-lg-6 col-md-6">
               <aside className="widget widget_text">
-                <h3 className="widget-title">About Travel</h3>
+                <h3 className="widget-title">About Journeyers Tour & Safari</h3>
                 <div className="textwidget widget-text">
                   Located on the enchanting Zanzibar Island, Journeyers Tour &
                   Safari is a tour operator for Zanzibar Archipelago and the
@@ -65,10 +65,25 @@ const Footer: React.FC = () => {
                         salumtwas25@gmail.com
                       </a>
                     </li>
+
                     <li>
                       <a href="mailto:salumtwas25@gmail.com">
                         <i className="fas fa-envelope"></i>
                         info@journeyerstoursafari.com
+                      </a>
+                    </li>
+
+                    <li>
+                      <a href="https://instagram.com/journeyers_tour?utm_source=qr&igshid=MThlNWY1MzQwNA==" target="_blank">
+                        <i className="fab fa-instagram"></i>
+                        journeyers_tour
+                      </a>
+                    </li>
+
+                    <li>
+                      <a href="https://www.tripadvisor.com/Attraction_Review-g482884-d26689044-Reviews-Journeyers_Tour_Safari-Zanzibar_Island_Zanzibar_Archipelago.html">
+                        <i className="fab fa-tripadvisor"></i>
+                        journeyerstoursafari
                       </a>
                     </li>
                     <li>
@@ -97,8 +112,11 @@ const Footer: React.FC = () => {
             </div>
             <div className="col-md-5">
               <div className="copy-right text-right">
-                Copyright © 2023 <a href="http://lionscode.tech/">Lion</a>. All
-                rights reserved
+                Copyright © 2023{" "}
+                <a target="_blank" href="http://lionscode.tech/">
+                  Lion
+                </a>
+                . All rights reserved
               </div>
             </div>
           </div>

@@ -12,7 +12,7 @@ function Home() {
   return (
     <>
       <BannerSection/>
-      <Search/>
+      <Search />
       <ZnzSection/>
       <TzSection/>
       <Packages/>
