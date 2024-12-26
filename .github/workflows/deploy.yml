@@ -11,28 +11,37 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # Step 1: Checkout the code
       - name: 🚚 Get latest code
         uses: actions/checkout@v3
         with:
           fetch-depth: 2
 
+      # Step 2: Install dependencies
       - name: 📦 Install dependencies
         run: |
           rm -rf node_modules && npm install
 
+      # Step 3: Build the application
       - name: 🛠️ Build application
         run: |
           npm run build
 
+      # Step 4: Copy assets folder into dist
       - name: 📂 Copy assets to dist
         run: |
           cp -r ./src ./dist/src
 
-      - name: 🚀 Deploy dist via SFTP
-        uses: appleboy/scp-action@v0.2.1
+      # Step 5: Deploy the dist folder via FTP
+      - name: 🚀 Deploy dist to production server
+        uses: SamKirkland/FTP-Deploy-Action@4.3.3
         with:
-          host: ${{ secrets.FTP_SERVER }}
+          server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          source: "./dist/"
-          target: "/public_html/"
+          local-dir: ./dist
+          server-dir: /public_html/
+
+      # Step 6: Notify success
+      - name: 📨 Notify deployment success
+        run: echo 'Deployment successful!'
