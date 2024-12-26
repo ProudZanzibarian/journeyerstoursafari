@@ -137,11 +137,11 @@ const ContactDetail: React.FC = () => {
                         <h4>Email Address</h4>
                         <span>
                           <a
-                            href="mailto:salumtwas25@gmail.com"
+                            href="mailto:example@gmail.com"
                             className="__cf_email__"
                             data-cfemail="a0c4cfcdc1c9cee0c3cfcdd0c1ced98ec3cfcd"
                           >
-                            salumtwas25@gmail.com
+                            example@gmail.com
                           </a>
                         </span>
                       </div>
@@ -152,7 +152,7 @@ const ContactDetail: React.FC = () => {
                       </span>
                       <div className="details-content">
                         <h4>Phone Number</h4>
-                        <span>Telephone: +255 710 799 443</span>
+                        <span>Telephone: +255 7** *** ***</span>
                       </div>
                     </li>
                   </ul>
@@ -161,12 +161,12 @@ const ContactDetail: React.FC = () => {
                   <h3>Follow us on social media..</h3>
                   <ul>
                     <li>
-                      <a href="https://www.facebook.com/profile.php?id=61552067602225&mibextid=ZbWKwL">
+                      <a href="D">
                         <i className="fab fa-facebook-f" aria-hidden="true"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="https://www.tripadvisor.com/Attraction_Review-g482884-d26689044-Reviews-Journeyers_Tour_Safari-Zanzibar_Island_Zanzibar_Archipelago.html">
+                      <a href="#">
                         <i
                           className="fab fa-tripadvisor"
                           aria-hidden="true"
@@ -174,14 +174,14 @@ const ContactDetail: React.FC = () => {
                       </a>
                     </li>
                     <li>
-                      <a href="https://instagram.com/journeyers_tour?utm_source=qr&igshid=MThlNWY1MzQwNA==">
+                      <a href="//#region ">
                         <i className="fab fa-instagram" aria-hidden="true"></i>
                       </a>
                     </li>
                     <li>
                       <a
                         target="_blank"
-                        href="https://api.whatsapp.com/send?phone=255710799443&text=Hi Journeyers Tour & Safari."
+                        href="https://api.whatsapp.com/send?phone=2557********&text=Hi Elite Tour & Safaris."
                       >
                         <i className="fab fa-whatsapp" aria-hidden="true"></i>
                       </a>
@@ -204,7 +204,7 @@ const ContactDetail: React.FC = () => {
           referrerPolicy="no-referrer-when-downgrade"
         ></iframe>
       </div>
-      <ToastContainer/>
+      <ToastContainer />
     </div>
   );
 };

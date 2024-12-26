@@ -1,6 +1,8 @@
 import React from "react";
 
 const Footer: React.FC = () => {
+  const currentYear = new Date().getFullYear();
+
   return (
     <footer id="colophon" className="site-footer footer-primary">
       <div className="top-footer">
@@ -8,25 +10,12 @@ const Footer: React.FC = () => {
           <div className="row">
             <div className="col-lg-6 col-md-6">
               <aside className="widget widget_text">
-                <h3 className="widget-title">About Journeyers Tour & Safari</h3>
+                <h3 className="widget-title">About JElite Tour Safaris</h3>
                 <div className="textwidget widget-text">
-                  Located on the enchanting Zanzibar Island, Journeyers Tour &
-                  Safari is a tour operator for Zanzibar Archipelago and the
-                  Swahili Coast. We have also partnered with selected service
-                  and experience providers on the Tanzania mainland, through
-                  whom we offer safari packages, authentic cultural encounters
-                  and mountain tours. Provide memorable, authentic visitor
-                  experiences to local and international travellers, with a
-                  focus on giving travellers an experience of the warmth and
-                  diverse cultures of Tanzania’s national community, the magic
-                  and sheer wonders of its climate, geography, wilderness and
-                  wildlife – safely, comfortably and affordably, while enriching
-                  both host communities’ and visitors’ lives alike, through
-                  shared knowledge and understanding. Use guest experiences to
-                  our country to making better places for people to live in and
-                  better places for people to visit. Through philanthropy, give
-                  to local communities which do not directly benefit from gains
-                  of tourism.
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Animi nisi neque repellendus quo magni doloremque. Illum ipsam
+                  odio esse reiciendis reprehenderit veritatis placeat illo
+                  sapiente accusamus debitis nobis, quam delectus?
                 </div>
                 <div className="award-img">
                   <a href="#">
@@ -46,7 +35,7 @@ const Footer: React.FC = () => {
                     <li>
                       <a href="tel:+255 710 799 443">
                         <i className="fas fa-phone-alt"></i>
-                        +255 710 799 443
+                        +255 7** *** ***
                       </a>
                     </li>
                     <li>
@@ -55,35 +44,34 @@ const Footer: React.FC = () => {
                         href="https://api.whatsapp.com/send?phone=255710799443&text=Hi Journeyers Tour & Safari."
                       >
                         <i className="fab fa-whatsapp" aria-hidden="true"></i>
-                        +255 710 799 443
+                        +255 7** *** ***
                       </a>
                     </li>
 
                     <li>
-                      <a href="mailto:salumtwas25@gmail.com">
+                      <a href="mailto:info@elitetoursafaris.com">
                         <i className="fas fa-envelope"></i>
-                        salumtwas25@gmail.com
                       </a>
                     </li>
 
                     <li>
-                      <a href="mailto:salumtwas25@gmail.com">
+                      <a href="mailto:info@elitetoursafaris.com">
                         <i className="fas fa-envelope"></i>
-                        info@journeyerstoursafari.com
+                        info@elitetoursafaris.com
                       </a>
                     </li>
 
                     <li>
-                      <a href="https://instagram.com/journeyers_tour?utm_source=qr&igshid=MThlNWY1MzQwNA==" target="_blank">
+                      <a href="#" target="_blank">
                         <i className="fab fa-instagram"></i>
-                        journeyers_tour
+                        elite_tour_safaris
                       </a>
                     </li>
 
                     <li>
-                      <a href="https://www.tripadvisor.com/Attraction_Review-g482884-d26689044-Reviews-Journeyers_Tour_Safari-Zanzibar_Island_Zanzibar_Archipelago.html">
+                      <a href="#">
                         <i className="fab fa-tripadvisor"></i>
-                        journeyerstoursafari
+                        elite_tour_safaris
                       </a>
                     </li>
                     <li>
@@ -112,9 +100,9 @@ const Footer: React.FC = () => {
             </div>
             <div className="col-md-5">
               <div className="copy-right text-right">
-                Copyright © 2023{" "}
-                <a target="_blank" href="http://lionscode.tech/">
-                  Lion
+                Copyright © {currentYear}{" "}
+                <a target="_blank" href="http://himatech.co.tz">
+                  Hima Technologies
                 </a>
                 . All rights reserved
               </div>

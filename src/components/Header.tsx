@@ -12,18 +12,18 @@ const Header: React.FC = () => {
                 <div className="header-contact-info">
                   <ul>
                     <li>
-                      <a href="tel:+255 710 799 443">
-                        <i className="fas fa-phone-alt"></i> +255 710 799 443
+                      <a href="#">
+                        <i className="fas fa-phone-alt"></i> +255 7** *** ***
                       </a>
                     </li>
                     <li>
-                      <a href="mailto:salumtwas25@gmail.com">
+                      <a href="#">
                         <i className="fas fa-envelope"></i>{" "}
                         <span
                           className="__cf_email__"
                           data-cfemail="680b070518090611280c0705090106460b0705"
                         >
-                          salumtwas25@gmail.com
+                          #
                         </span>
                       </a>
                     </li>
@@ -38,28 +38,25 @@ const Header: React.FC = () => {
                 <div className="header-social social-links">
                   <ul>
                     <li>
-                      <a href="https://www.facebook.com/profile.php?id=61552067602225&mibextid=ZbWKwL">
+                      <a href="#">
                         <i className="fab fa-facebook-f" aria-hidden="true"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="https://instagram.com/journeyers_tour?utm_source=qr&igshid=MThlNWY1MzQwNA==">
-                      <i className="fab fa-instagram" aria-hidden="true"></i>
+                      <a href="#">
+                        <i className="fab fa-instagram" aria-hidden="true"></i>
                       </a>
                     </li>
                     <li>
                       <a
                         target="_blank"
-                        href="https://api.whatsapp.com/send?phone=255710799443&text=Hi Journeyers Tour & Safari."
+                        href="https://api.whatsapp.com/send?phone=2557********3&text=Hi Elite Tour and Safaris"
                       >
                         <i className="fab fa-whatsapp" aria-hidden="true"></i>
                       </a>
                     </li>
                     <li>
-                      <a
-                        target="_blank"
-                        href="https://www.tripadvisor.com/Attraction_Review-g482884-d26689044-Reviews-Journeyers_Tour_Safari-Zanzibar_Island_Zanzibar_Archipelago.html"
-                      >
+                      <a target="_blank" href="#">
                         <i
                           className="fab fa-tripadvisor"
                           aria-hidden="true"
@@ -83,11 +80,7 @@ const Header: React.FC = () => {
                     alt="logo"
                     style={{ width: "70px" }}
                   />
-                  <img
-                    className="black-logo"
-                    src={homelogo}
-                    alt="logo"
-                  />
+                  <img className="black-logo" src={homelogo} alt="logo" />
                 </Link>
               </h1>
             </div>
@@ -124,7 +117,7 @@ const Header: React.FC = () => {
                     <Link to="/packages">All Packages</Link>
                   </li>
                   <li>
-                    <Link to="/about">Aboutus</Link>
+                    <Link to="/about">About us</Link>
                   </li>
                   <li>
                     <Link to="/contact">Contact</Link>

@@ -22,7 +22,7 @@ jobs:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: ./
+          local-dir: ./dist/
           server-dir: /elitetoursafaris.co.tz/
 
       - name: 📨 Notify deployment success
