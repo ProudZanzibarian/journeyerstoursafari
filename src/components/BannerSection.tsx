@@ -6,8 +6,8 @@ const BannerSection: React.FC = () => {
   const sliderSettings = {
     dots: false,
     infinite: true,
-    autoplay: true, 
-    autoplaySpeed: 5000, 
+    autoplay: true,
+    autoplaySpeed: 5000,
     speed: 1200,
     fade: true,
     slidesToShow: 1,
@@ -26,9 +26,10 @@ const BannerSection: React.FC = () => {
           <div className="banner-content-wrap">
             <div className="container">
               <div className="banner-content text-center">
-                <h2 className="banner-title">Journeyers Tour & Safari</h2>
+                <h2 className="banner-title">Elite Tour and Safari</h2>
                 <p>
-                  Certified by Travelife, part of Responsible Tourism Tanzania. Your holiday will make a difference.
+                  Certified by Travelife, part of Responsible Tourism Tanzania.
+                  Your holiday will make a difference.
                 </p>
                 <Link to="/about" className="button-primary">
                   CONTINUE READING
@@ -47,9 +48,10 @@ const BannerSection: React.FC = () => {
           <div className="banner-content-wrap">
             <div className="container">
               <div className="banner-content text-center">
-                <h2 className="banner-title">Journeyers Tour & Safari</h2>
+                <h2 className="banner-title">Elite Tour and Safari</h2>
                 <p>
-                  Certified by Travelife, part of Responsible Tourism Tanzania. Your holiday will make a difference.
+                  Certified by Travelife, part of Responsible Tourism Tanzania.
+                  Your holiday will make a difference.
                 </p>
                 <Link to="/about" className="button-primary">
                   CONTINUE READING
