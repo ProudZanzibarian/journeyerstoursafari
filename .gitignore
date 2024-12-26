@@ -1,1 +1,34 @@
-node_modules
+# Node.js
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Build Directories
+/build/
+/dist/
+
+# Temporary Files
+*.tmp
+
+# Environment files
+.env
+.env.*
+
+# Compiled files
+*.so
+*.d.ts
+*.map
+
+# OS-specific files
+.DS_Store
+thumbs.db
+
+# Editor-specific files
+*.swp
+*.swo
+*.bak
+
+# Logs
+logs/
+*.log
