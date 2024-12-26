@@ -1,4 +1,4 @@
-name: Deploy PHP Application to cPanel
+name: Build and Deploy Application
 
 on:
   push:
@@ -7,7 +7,7 @@ on:
 
 jobs:
   build-and-deploy:
-    name: 🚀 Build and Deploy
+    name: 🚀 Build, Copy Assets, and Deploy
     runs-on: ubuntu-latest
 
     steps:
@@ -16,14 +16,23 @@ jobs:
         with:
           fetch-depth: 2
 
-      - name: 📦 Sync code to production server
-        uses: SamKirkland/FTP-Deploy-Action@4.3.3
+      - name: 📦 Install dependencies
+        run: |
+          rm -rf node_modules && npm install
+
+      - name: 🛠️ Build application
+        run: |
+          npm run build
+
+      - name: 📂 Copy assets to dist
+        run: |
+          cp -r ./src ./dist/src
+
+      - name: 🚀 Deploy dist via SFTP
+        uses: appleboy/scp-action@v0.2.1
         with:
-          server: ${{ secrets.FTP_SERVER }}
+          host: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: ./dist/
-          server-dir: /elitetoursafaris.co.tz/
-
-      - name: 📨 Notify deployment success
-        run: echo 'Deployment successful!'
+          source: "./dist/*"
+          target: "/public_html/"
